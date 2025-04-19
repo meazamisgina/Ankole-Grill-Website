@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="reservations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="reservation">
+        <div class="half-pic">
+            <img id="logo" src="Images/Ankole-Grill-logo.svg" alt="">
+            <h3>Karibu</h3>
+            <h1>Reservation</h1>
+        </div>
+        <div class="reservation-form">
+            <div class="box-form">
+
+
+                <div class="form">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" placeholder="Enter your first name">
+                </div>
+
+                <div class="form">
+                    <label for="location">Location</label><br>
+                    <select id="location">
+                        <option>kitisuru(open 9 am closes 11 pm)</option>
+                        <option>Kilimani(Hours:Open 7:30 am closes 11pm)</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <label for="email">Email Address</label><br>
+                    <input type="email" id="email" placeholder="e.g info@email.com">
+
+                </div>
+                <div class="form">
+                    <label for="tel">Tel/Call</label><br>
+                    <input type="tel" id="tel" placeholder="e.g 0700 000 000">
+                </div>
+                <div class="form">
+                    <label for="guests">Number of Guests</label><br>
+                    <input type="number" id="guests" placeholder="maximum of8 guests only">
+                </div>
+                <div class="form">
+                    <label for="date">Date</label><br>
+                    <input type="date" id="date" placeholder="mm/dd/yyyy">
+
+                </div>
+                <div class="form">
+                    <label for="time">Time</label><br>
+                    <input type="time" id="time">
+                </div>
+                <br>
+                <button type="submit" id="active" >Submit</button>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=703212121&text=Welcome%20to%20Ankole%20Grill.%20How%20may%20we%20be%20of%20assistance" class="fa-brands fa-whatsapp"></a>
+        </div>
+    </div>
+    <nav>
+        <ul class="home-items">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-clock"></i>
+            <li><a href="">Home</a></li>
+            <li><a href="menu-page.html" class="active">Menu</a></li>
+            <li><a href="review.html" class="active">Reviews</a></li>
+            <li><a href="events.html" class="active">Events</a></li>
+            <li><a href="live.html" class="active">Live</a></li>
+            <li><a href="contact.html" class="active">Contacts</a></li>
+            <li><a id="reservation" href="reservations.html">Reservations</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

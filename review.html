@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="logo">
+        <img id="logo" src="Images/Ankole-Grill-logo.svg" alt="">
+        <div><h1>Review</h1></div>
+        <div>
+            <i class="fa-solid fa-quote-left"></i><br>
+        </div>
+        <div class="review-display-container">
+            <div class="display-container mySlides">
+                <div class="display-bottomleft-container ">
+                    This place is run by educated, innovative &creative people! The architectural layout, seating,
+                    ambience,<br>
+                    lighting,cutlery: servings, design; has been impeccably well thought out! Even thewashrooms were <br>
+                    excellent!The food was AWESOME! This is surprising consideringthe fact we were there on a Saturday
+                    night<br>
+                    & they almost had no space!We were extremely well serviced too!Rare to find such finesse in Kenya!
+                    You<br>
+                    must go visitthem!<br><br>irfan virji<br>
+                    KITISURU
+                </div>
+            </div>
+    
+            <div class="display-container mySlides">
+                <div class="display-bottomleft-container">
+                    Such a fantastic restaurant, I plan on being a regularhere. The food is amazing the atmosphere is so
+                    nice and<br> the service isexceptional. I pray you are able to visit them at least once so you
+                    canunderstand what I'm saying.<br>
+                    fantastic only<br>
+                    be carefulcause the portions are bigger than you would expect.
+                    <br><br>Paul Kamau<br>KITISURU
+                </div>
+            </div>
+            <div class="display-container mySlides">
+                <div class="display-bottomleft-container">
+                    Best place to eat out. If you want to have a niceromantic date this place is perfect. The food is
+                    fantastic only<br>
+                    be carefulcause the portions are bigger than you would expect.<br>
+                    fantastic only<br>
+                    be carefulcause the portions are bigger than you would expect.
+                    <br><br>
+    
+                    Vladimiro Stivali<br>
+                    KITISURU
+                </div>
+            </div>
+            <button class="button-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="button-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        <div>
+            <i class="fa-solid fa-quote-right"></i>
+        </div>
+        <nav>
+            <ul class="home-items">
+                <a class="fa-solid fa-bars"></a>
+                <a class="fa-solid fa-clock"></a>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu-page.html" class="active">Menu</a></li>
+                <li><a href="review.html" class="active">Reviews</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="live.html" class="active">Live</a></li>
+                <li><a href="contact.html" class="active">Contacts</a></li>
+                <li><a id="reservation" href="reservations.html">Reservations</a></li>
+            </ul>
+        </nav>
+        <a href="https://api.whatsapp.com/send?phone=703212121&text=Welcome%20to%20Ankole%20Grill.%20How%20may%20we%20be%20of%20assistance"
+        class="fa-brands fa-whatsapp"></a>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>

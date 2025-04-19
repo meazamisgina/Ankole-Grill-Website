@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/Ankole-Grill-logo.svg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.all-events {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.event-place img {
+    width: 610px;
+
+}
+
+.text {
+    text-align: center;
+    margin-top: -180%;
+    color: white;
+    font-weight: bold;
+    line-height: 0.9em;
+    font-size: 1.2em;
+
+}
+
+#text {
+    color: gray;
+}
+
+.text h1 {
+    font-size: 3.5em;
+
+
+}
+
+#known-for {
+    color: rgb(231, 144, 43);
+}
+
+.home-items {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    padding-top: 2%;
+    list-style: none;
+    background-color: black;
+    width: 48%;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: -5cm;
+    margin-top: -7%;
+
+}
+
+.home-page {
+    position: absolute;
+    z-index: 1;
+    object-position: center;
+}
+
+.home-items a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+
+.home-items a:hover {
+    border-radius: 6px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#reservation {
+    background-color: gray;
+    padding: 25px;
+    margin-left: 30%;
+    border-radius: 30px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.fa-clock {
+    color: white;
+}
+
+.fa-whatsapp {
+    font-size: 80px;
+    color: gray;
+    margin-left: 94%;
+    text-decoration: none;
+    margin-top: -50%;
+    
+
+}

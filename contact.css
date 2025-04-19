@@ -1,0 +1,112 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("Images/Background-Ankole.jpg");
+
+}
+
+#logo {
+    margin-left: 44%;
+    width: 11%;
+    margin-top: 5%;
+
+}
+
+.contacts {
+    display: flex;
+    gap: 1%;
+    margin-left: 12%;
+    line-height: 0.9em;
+    margin-top: 3%;
+
+}
+
+.kitisuru-address a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.kitisuru-address {
+    color: white;
+    font-size: 1.2em;
+    border: solid 2px rgb(189, 183, 183);
+    font-weight: bold;
+    width: 350px;
+    height: 300PX;
+    margin-left: 15%;
+    padding-left: 50px;
+}
+
+.kilimani-address a {
+    color: white;
+    text-decoration: none;
+}
+
+.kilimani-address {
+    font-weight: bold;
+    color: white;
+    border: solid 2px rgb(182, 176, 176);
+    width: 400px;
+    padding-left: 50px;
+    font-size: 1.2em;
+}
+
+.home-items {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    padding-top: 2%;
+    list-style: none;
+    background-color: black;
+    width: 48%;
+    height: 60px;
+    border-radius: 100px;
+    margin-top: 3cm;
+    margin-left: -5cm;
+}
+
+.home-page {
+    position: absolute;
+    z-index: 1;
+    object-position: center;
+}
+
+.home-items a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+
+.home-items a:hover {
+    border-radius: 6px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#reservation {
+    background-color: gray;
+    padding: 25px;
+    margin-left: 30%;
+    border-radius: 30px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.fa-clock {
+    color: white;
+}
+
+.fa-whatsapp {
+    font-size: 80px;
+    color: white;
+    margin-left: 94%;
+    text-decoration: none;
+    margin-top: 6%;
+
+
+}

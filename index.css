@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.home-items {
+    display: flex;
+    position: absolute;
+    left: 18%;
+    padding-top: 2%;
+    list-style: none;
+    background-color: black;
+    width: 45%;
+    height: 60px;
+    border-radius: 100px;
+    margin-bottom: 100px;
+}
+
+#logo {
+    position: absolute;
+    width: 12%;
+    margin-top: 4%;
+    margin-left: 45%;
+    position: fixed;
+    z-index: 10;
+}
+
+.home-items {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    padding-top: 2%;
+    list-style: none;
+    background-color: black;
+    width: 45%;
+    height: 50px;
+    border-radius: 100px;
+    position: fixed;
+    margin-top: 45%;
+
+}
+
+.home-items a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+
+}
+
+.home-items a:hover {
+    border-radius: 6px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#reservation {
+    background-color: gray;
+    padding: 25px;
+    margin-left: 30%;
+    border-radius: 30px;
+
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+    color: gray;
+    margin-left: 95%;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    margin-top: 48%;
+
+}
+
+.fa-instagram {
+    font-size: 40px;
+    color: rgb(179, 167, 167);
+    margin-left: 94%;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    margin-top: 3%;
+}
+
+
+.fa-facebook {
+    font-size: 45px;
+    color: rgb(184, 174, 174);
+    margin-left: 96.5%;
+    text-decoration: none;
+    position: absolute;
+    position: fixed;
+    margin-top: 3%;
+}
+
+
+
+
+.home-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.text:nth-child(1) {
+    background-image: url("Images/Ankole-Outside-view.jpg");
+    animation-delay: 0s;
+    background-repeat: no-repeat;
+}
+
+.text:nth-child(2) {
+    background-image: url("Images/Ankole-In-view.jpg");
+    animation-delay: 3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text:nth-child(3) {
+    background-image: url("Images/Ankole\ Chips.jpeg");
+    animation-delay: 6s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text:nth-child(4) {
+    background-image: url("Images/Ankole\ sweet.jpeg");
+    animation-delay: 9s;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text:nth-child(5) {
+    background-image: url("Images/Ankole-gridients.jpg");
+    animation-delay: 12s;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    justify-items: center;
+    color: gray;
+    font-size: 5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: slideshow 15s infinite;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes slideshow {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    35% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+
+
+}

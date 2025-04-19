@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2qfsFMzErt4vPUc1pH2N3eqtwstl4MFjcMfFKIudLXQ3QHq11");
+    background-repeat: repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7));
+
+}
+
+.live-page img {
+    width: 13%;
+    padding-top: 6%;
+    position: fixed;
+}
+
+.live-page {
+    line-height: 0.9em;
+    margin-left: 15%;
+
+}
+
+.live-page h2 {
+    padding-top: 30%;
+    margin-left: 3%;
+    color: white;
+    font-size: 1.8em;
+
+}
+
+.live-page h1 {
+    margin-left: 3%;
+    color: rgb(189, 7, 7);
+    font-size: 4em;
+
+
+}
+
+.live-schedule {
+    margin-top: -35%;
+    margin-left: 40%;
+
+}
+
+.live {
+    margin-left: 10%;
+    display: flex;
+    gap: 2%;
+    padding-top: 20%;
+    color: white;
+
+    p {
+        color: rgb(197, 10, 10);
+        font-size: 1.4em;
+        padding-top: 30%;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+}
+
+#banner img {
+    width: 400px;
+    height: 100%;
+    box-shadow: inset;
+}
+
+#banner img:hover {
+    color: pink;
+    cursor: pointer;
+    border-radius: 4%;
+    border: 5px solid pink;
+    width: 420px;
+    height: 100%;
+    transform: scale(0.9);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.home-items {
+    display: flex;
+    position: absolute;
+    left: 4%;
+    padding-top: 2%;
+    list-style: none;
+    background-color: black;
+    width: 45%;
+    height: 50px;
+    border-radius: 100px;
+    position: fixed;
+    margin-top: 12%;
+}
+
+.home-items a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+
+}
+
+.home-items a:hover {
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+#reservation {
+    background-color: gray;
+    padding: 25px;
+    margin-left: 30%;
+    border-radius: 30px;
+
+}
+
+.fa-whatsapp {
+    font-size: 70px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 79%;
+    color: gray;
+    position: fixed;
+
+}

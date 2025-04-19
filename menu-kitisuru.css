@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#logo {
+    margin-left: 39%;
+    width: 25%;
+    margin-top: 8%;
+}
+
+.fixed-part {
+    background-image: url("https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg");
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+
+}
+
+.fixed-content {
+    padding-top: 13%;
+    line-height: 1em;
+    text-align: center;
+
+    p {
+        color: white;
+        font-size: 2em;
+    }
+
+    h1 {
+        color: rgb(180, 16, 16);
+        font-size: 4em;
+    }
+}
+
+
+.menu-part {
+    width: 50%;
+    overflow: auto;
+    background-color: black;
+    color: rgb(212, 205, 205);
+    position: absolute;
+    margin-left: 50%;
+}
+
+.nav {
+    display: flex;
+    gap: 6%;
+    margin-left: 40%;
+    font-size: 1.2em;
+    margin-top: 2%;
+}
+
+.nav a {
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.nav a:hover {
+    color: rgb(224, 168, 55);
+
+}
+
+.working-hour {
+    padding-left: 7%;
+    line-height: 1.3em;
+    padding-top: 3%;
+
+}
+
+.list {
+    display: flex;
+    gap: 4%;
+    margin-left: 5%;
+    color: rgb(197, 10, 10);
+    padding-left: 2%;
+    font-size: 1.6em;
+}
+
+.menu-price {
+    display: flex;
+    gap: 45%;
+    padding-left: 7%;
+}
+
+.menu-list {
+    margin-top: 5%;
+    display: flex;
+    padding-right: 5%;
+    justify-content: space-between;
+    padding-left: 10%;
+
+}
+
+.menu-list img {
+    width: 10%;
+}
+
+.menu-list p {
+    color: rgb(175, 171, 171);
+}
+
+.food-list {
+    margin-top: 5%;
+    display: flex;
+    padding-right: 5%;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.food-list img {
+    width: 10%;
+}
+
+.food-type h2 {
+    color: rgb(175, 12, 12);
+    padding-left: 8%;
+}
+
+.drinks {
+    padding-left: 10%;
+    line-height: 2em;
+    margin-top: 8%;
+}
+
+.drinks-type {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8%;
+
+}
+.drinks h2{
+    font-size: 2em;
+}
+.drinks h3 {
+    color: rgb(202, 25, 25);
+}
+
+.home-items {
+    display: flex;
+    position: absolute;
+    left: 4%;
+    padding-top: 2%;
+    list-style: none;
+    background-color: black;
+    width: 48%;
+    height: 60px;
+    border-radius: 100px;
+    margin-left: -2cm;
+    margin-top: 45%;
+    position: fixed;
+
+}
+
+.home-page {
+    position: absolute;
+    z-index: 1;
+    object-position: center;
+}
+
+.home-items a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+
+}
+
+.home-items a:hover {
+    border-radius: 6px;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#reservation {
+    background-color: gray;
+    padding: 25px;
+    margin-left: 30%;
+    border-radius: 30px;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+    color: gray;
+    margin-left: 94%;
+    text-decoration: none;
+    margin-top: 48%;
+    position: absolute;
+    position: fixed;
+
+
+}

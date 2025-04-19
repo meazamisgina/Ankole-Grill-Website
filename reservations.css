@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+
+}
+.reservation {
+    display: flex;
+    width: 100%;
+}
+
+.half-pic {
+    background-image: url("Images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    border: solid;
+    height: 100vh;
+}
+
+#logo {
+    margin-left: 34%;
+    margin-top: 4%;
+    width: 300px;
+
+}
+.half-pic h3{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+.half-pic h1{
+    text-align: center;
+    color: rgb(228, 19, 19);
+    font-size: 3.5em;
+
+}
+
+.reservation-form {
+    line-height: 2.5em;
+    background-color: black;
+
+    width: 50%;
+    padding-left: 3%;
+
+}
+.box-form{
+    border: rgb(26, 25, 25) solid 0.2px;
+    margin-top: 3%;
+    width: 80%;
+    padding-left: 5%;
+    padding-bottom: 9%;
+    border-radius: 8%;
+}
+
+.reservation-form button {
+    background-color: rgb(240, 209, 171);
+    width: 90%;
+    height: 65px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.reservation-form label {
+    color: rgb(153, 144, 144);
+}
+
+.reservation-form input {
+    line-height: 2em;
+    border: solid 0.5px rgb(68, 62, 62);
+    width: 90%;
+    background-color: inherit;
+    height: 50px;
+    color-scheme: dark;
+    color: white;
+
+}
+#location{
+    line-height: 2em;
+    border: solid 0.5px rgb(68, 62, 62);
+    width: 90%;
+    background-color: inherit;
+    height: 50px;
+}
+.home-items {
+    display: flex;
+    position: absolute;
+    left: 30%;
+    padding-top: 2%;
+    list-style: none;
+    background-color: black;
+    width: 48%;
+    height: 60px;
+    border-radius: 100px;
+    margin-top: -4cm;
+    margin-left: -5cm;
+}
+
+.home-page {
+    position: absolute;
+    z-index: 1;
+    object-position: center;
+    margin-left: 10%;
+}
+
+.home-items a {
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+}
+
+.home-items:active {
+    color: gray;
+}
+
+.home-items a:hover {
+    background-color: rgb(83, 81, 81);
+    border-radius: 6px;
+    font-size: 25px;
+    height: 50px;
+    padding-right: 30px;
+}
+#active:hover {
+    background-color: white;
+}
+
+#reservation {
+    background-color: gray;
+    padding: 25px;
+    margin-left: 30%;
+    padding-left: 40px;
+    padding-right: 45px;
+    border-radius: 30px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.fa-clock {
+    color: white;
+    padding-left: 3%;
+}
+.fa-whatsapp{
+    font-size:80px ;
+    color: rgb(90, 83, 83);
+    margin-bottom: -6cm;
+    margin-left: 88%;
+    text-decoration: none;
+
+
+}
