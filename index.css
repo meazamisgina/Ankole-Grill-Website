@@ -97,9 +97,6 @@ body {
     margin-top: 3%;
 }
 
-
-
-
 .home-background {
     position: relative;
     width: 100%;
@@ -177,6 +174,83 @@ body {
         opacity: 0;
     }
 
+}
 
+
+
+@media only screen and (min-width: 200px) and (max-width:950px) {
+
+    body {
+        width: 90%;
+        position: fixed;
+        overflow: hidden;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    #hidden {
+        display: none;
+    }
+
+    .home-items {
+        padding-top: 5%;
+        width: 62%;
+        margin-top: 190%;
+        margin-left: -20%;
+
+        #reservation {
+            padding-top: 5%;
+            padding-left: 10px;
+            background-color: gray;
+            width: 62px;
+        }
+    }
+
+    .home-items a {
+        display: block;
+    }
+
+    #logo {
+        margin-left: 28%;
+        width: 35%;
+    }
+
+    .home-items a:hover {
+        border-radius: 6px;
+        font-size: 20px;
+        padding-right: 30px;
+    }
+
+
+    .fa-whatsapp {
+        margin-left: 78%;
+        width: 90%;
+        margin-top: 190%;
+
+    }
+
+    .home-background {
+        width: 100%;
+        background-size: cover;
+        position: fixed;
+    }
+
+    .home-background h1 {
+        font-size: 90%;
+    }
+
+    .fa-instagram {
+        width: 100%;
+        margin-left: 70%
+    }
+
+
+    .fa-facebook {
+        width: 50%;
+        margin-left: 81%;
+
+    }
 
 }

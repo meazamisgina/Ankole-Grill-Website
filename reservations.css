@@ -4,6 +4,7 @@ body {
     overflow: hidden;
 
 }
+
 .reservation {
     display: flex;
     width: 100%;
@@ -24,12 +25,14 @@ body {
     width: 300px;
 
 }
-.half-pic h3{
+
+.half-pic h3 {
     color: white;
     text-align: center;
     font-size: 3em;
 }
-.half-pic h1{
+
+.half-pic h1 {
     text-align: center;
     color: rgb(228, 19, 19);
     font-size: 3.5em;
@@ -44,7 +47,8 @@ body {
     padding-left: 3%;
 
 }
-.box-form{
+
+.box-form {
     border: rgb(26, 25, 25) solid 0.2px;
     margin-top: 3%;
     width: 80%;
@@ -76,13 +80,15 @@ body {
     color: white;
 
 }
-#location{
+
+#location {
     line-height: 2em;
     border: solid 0.5px rgb(68, 62, 62);
     width: 90%;
     background-color: inherit;
     height: 50px;
 }
+
 .home-items {
     display: flex;
     position: absolute;
@@ -121,6 +127,7 @@ body {
     height: 50px;
     padding-right: 30px;
 }
+
 #active:hover {
     background-color: white;
 }
@@ -142,12 +149,76 @@ body {
     color: white;
     padding-left: 3%;
 }
-.fa-whatsapp{
-    font-size:80px ;
+
+.fa-whatsapp {
+    font-size: 80px;
     color: rgb(90, 83, 83);
     margin-bottom: -6cm;
     margin-left: 88%;
     text-decoration: none;
 
 
+}
+
+@media only screen and (min-width: 200px) and (max-width:950px) {
+    body {
+        width: 100%;
+        flex-direction: column;
+        overflow: hidden;
+        background-size: cover;
+    }
+
+    .reservation {
+        display: flex;
+        width: 100%;
+    }
+
+    .half-pic {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #logo {
+        width: 60%;
+
+    }
+
+    .active {
+        display: none;
+    }
+
+    .reservation-form {
+        width: 100%;
+    }
+
+
+    .reservation-form button {
+        width: 100%;
+    }
+
+    .reservation-form input {
+        width: 100%;
+
+    }
+
+    .home-items {
+        width: 60%;
+        align-content: center;
+        margin-left: 0;
+
+    }
+
+    .home-items a {
+        width: 100%;
+    }
+
+    #reservation {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .fa-whatsapp {
+        width: 100%;
+        margin-left: 10%;
+    }
 }

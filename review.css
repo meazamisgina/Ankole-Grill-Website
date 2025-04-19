@@ -4,38 +4,40 @@ body {
     background-color: rgb(26, 24, 24);
     color: white;
 }
-.mySlides{
+
+.mySlides {
     display: none;
 }
 
-.fa-quote-left{
+.fa-quote-left {
     color: red;
     font-size: 50px;
     margin-left: 25%;
 }
 
-.fa-quote-right{
+.fa-quote-right {
     color: red;
     font-size: 50px;
     margin-left: 70%;
 }
 
-.logo h1{
+.logo h1 {
     font-size: 3.5em;
     text-align: center;
 
 }
 
-.review-display-container{
+.review-display-container {
     text-align: center;
 }
-.button-display-left{
-margin-top: -5px;
+
+.button-display-left {
+    margin-top: -5px;
     background-color: transparent;
     margin-left: -1%;
 }
 
-.button-display-right{
+.button-display-right {
     font-size: 20px;
     background-color: transparent;
     margin-left: -30%;
@@ -103,6 +105,120 @@ margin-top: -5px;
     text-decoration: none;
     margin-top: 10%;
     position: fixed;
+
+}
+
+
+@media only screen and (min-width: 200px) and (max-width:950px) {
+    body {
+        width: 100%;
+        width: auto;
+    }
+
+    .fa-quote-left {
+        width: 100%;
+
+    }
+
+    .fa-quote-right {
+
+        width: 100%;
+
+    }
+
+    .logo h1 {
+        width: 100%;
+
+
+    }
+
+    .review-display-container {
+        text-align: center;
+    }
+
+    .button-display-left {
+        margin-top: -5px;
+        background-color: transparent;
+        margin-left: -1%;
+    }
+
+    .button-display-right {
+        font-size: 20px;
+        background-color: transparent;
+        margin-left: -30%;
+    }
+
+    #logo {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .home-items {
+        width: 100%;
+        margin-left: -25%;
+        margin-top: 10%;
+        padding-left: 0%;
+
+    }
+
+    .home-items a {
+        width: 100%;
+
+    }
+
+    .home-items a:hover {
+        border-radius: 6px;
+        font-size: 20px;
+        padding-right: 30px;
+    }
+
+    #reservation {
+        margin-left: -100%;
+        width: 100%;
+        padding-left: -60%;
+    }
+
+    .fa-whatsapp {
+        width: 100%;
+        margin-left: 50%;
+        margin-top: 10%;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
